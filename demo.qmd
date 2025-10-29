@@ -33,3 +33,13 @@ mtcars |>
   geom_point()
 
 ```
+
+Comment: Hhhh, to make a merge conflict
+
+```{r}
+
+mtcars |>
+  ggplot(aes(mpg, wt))+
+  geom_point()
+
+```
