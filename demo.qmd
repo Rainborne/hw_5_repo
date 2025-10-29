@@ -30,7 +30,8 @@ The `echo: false` option disables the printing of code (only output is displayed
 library(ggplot2)
 mtcars |>
   ggplot(aes(mpg, wt))+
-  geom_point()
+  geom_point()+
+  labs(x = "mpg", y = "wt", title = "My Custom Plot")
 
 ```
 
