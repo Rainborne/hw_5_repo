@@ -31,16 +31,8 @@ library(ggplot2)
 mtcars |>
   ggplot(aes(mpg, wt))+
   geom_point()+
-  labs(x = "mpg", y = "wt", title = "My Custom Plot")
+  labs(x = "mpg", y = "wt")
 
 ```
 
 Comment: Hhhh, to make a merge conflict
-
-```{r}
-
-mtcars |>
-  ggplot(aes(mpg, wt))+
-  geom_point()
-
-```
